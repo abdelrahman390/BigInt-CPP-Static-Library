@@ -21,60 +21,65 @@
   - Build the library project, and link the library probably.
   - Include this line in your main.cpp: #include "../mathLongOperations/mathLongOperations.h"
   - Example of how to use it:
-  int main() {
-	cout << "addition: " <<  add("10000000000000000000000000000000000000000", "100") << endl;
-	cout << "delete: " << deleteNum("1000", "100") << endl;
-	cout << "multiplication: " << multiplication("9", "100") << endl;
-	cout << "division: " << division("1000", "100") << endl;
-	//************** Direct operations **************
 
 
-	BigInt j = 1;
-	cout << "j: " << j << endl;
-	BigInt k = j;
-	cout << "k: " << k << endl;
-	BigInt m = j + k;
-	cout << "m: " << m << endl;
-	//************** Simple operation **************
+  ```cpp
+  int main() {  
+	cout << "addition: " <<  add("10000000000000000000000000000000000000000", "100") << endl;  
+	cout << "delete: " << deleteNum("1000", "100") << endl;  
+	cout << "multiplication: " << multiplication("9", "100") << endl;  
+	cout << "division: " << division("1000", "100") << endl;  
+	//************** Direct operations **************  
 
-	BigInt a("123");
-	BigInt b = a++;
-	cout << "b: " << b << endl;
-	// ************** BigInt operator++(int) **************
 
-	BigInt o = 1;
-	o++;
-	cout << "o: " << o << endl;
-	// ************** void operator++(int) **************
+	BigInt j = 1;  
+	cout << "j: " << j << endl;  
+	BigInt k = j;  
+	cout << "k: " << k << endl;  
+	BigInt m = j + k;  
+	cout << "m: " << m << endl;  
+	//************** Simple operation **************  
 
-	BigInt p = 1;
-	p += 10;
-	cout << "p: " << p << endl;
-	// ************** BigInt operator += (int n) **************
+	BigInt a("123");  
+	BigInt b = a++;  
+	cout << "b: " << b << endl;  
+	// ************** BigInt operator++(int) **************  
 
-	BigInt v = 10;
-	BigInt e = 1;
-	e += v;
-	cout << "e: " << e << endl;
-	// ************** BigInt operator += (BigInt& n) **************
+	BigInt o = 1;  
+	o++;  
+	cout << "o: " << o << endl;  
+	// ************** void operator++(int) **************  
 
-	BigInt z = 10;
-	cout << "Division: " << z.Division("7") << endl; // Error
-	BigInt w = 8127;
-	cout << "Division: " << w.Division("9") << endl; // 903
-	BigInt q = "100000000000000000000000000000000000000000000000000000000000000000000000";
-	cout << "Division: " << q.Division("2") << endl; // 50000000000000000000000000000000000000000000000000000000000000000000000
-	// ************** Division **************
+	BigInt p = 1;  
+	p += 10;  
+	cout << "p: " << p << endl;  
+	// ************** BigInt operator += (int n) **************  
 
-	BigInt i = "1000000000000000000000000000000000000000000000000000000000000000";
-	cout << "Multiplication: " << i.multiplication("2") << endl;
-	// ************** Multiplication **************
+	BigInt v = 10;  
+	BigInt e = 1;  
+	e += v;  
+	cout << "e: " << e << endl;  
+	// ************** BigInt operator += (BigInt& n) **************  
 
-	BigInt u = 1999;
-	cout << "Addition: " << u.AddNumbers("1") << endl;
-	// ************** Addition **************
+	BigInt z = 10;  
+	cout << "Division: " << z.Division("7") << endl; // Error  
+	BigInt w = 8127;  
+	cout << "Division: " << w.Division("9") << endl; // 903  
+	BigInt q = "100000000000000000000000000000000000000000000000000000000000000000000000";  
+	cout << "Division: " << q.Division("2") << endl; // 50000000000000000000000000000000000000000000000000000000000000000000000  
+	// ************** Division **************  
 
-	BigInt c = 2000;
-	cout << "Subtraction: " << c.deleteNumbers("1") << endl;
-	// ************** Subtraction **************
+	BigInt i = "1000000000000000000000000000000000000000000000000000000000000000";  
+	cout << "Multiplication: " << i.multiplication("2") << endl;  
+	// ************** Multiplication **************  
+
+	BigInt u = 1999;  
+	cout << "Addition: " << u.AddNumbers("1") << endl;  
+	// ************** Addition **************  
+
+	BigInt c = 2000;  
+	cout << "Subtraction: " << c.deleteNumbers("1") << endl;  
+	// ************** Subtraction **************  
 }
+```    
+
