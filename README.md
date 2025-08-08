@@ -1,6 +1,21 @@
 #BigInt CPP Static Library
-- is a C++ library to perform mathematical operations on huge numbers that can't be done by normal operations or digit data types.
-- Operations example: Long Addition, Long Subtraction, Long Multiplication, Long Division.
+- is a C++ library to perform mathematical operations on integers of virtually unlimited size, overcoming the limitations of native C++ integer types
+  
+## Features
+
+- Support for extremely large integers (limited only by system memory)
+- Four fundamental arithmetic operations:
+  - Addition (`+`, `+=`, `AddNumbers`)
+  - Subtraction (`-`, `-=`, `deleteNumbers`)
+  - Multiplication (`*`, `multiplication`)
+  - Division (`/`, `Division`)
+- Increment (`++`) and decrement (`--`) operators
+- Stream output support (`<<`)
+- Multiple constructor options:
+  - From string (`BigInt("123")`)
+  - From C-string (`BigInt("123")`)
+  - From integer (`BigInt(123)`)
+  - Default constructor (`BigInt()`)
 
   # How to use it:
   If this is your files directory:
