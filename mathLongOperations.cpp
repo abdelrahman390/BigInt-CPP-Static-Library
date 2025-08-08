@@ -5,63 +5,6 @@
 #include <stdexcept>
 using namespace std;
 
-
-//void main() {
-	//cout << add("123", "1") << endl;
-
-
-
-	//BigInt j = 1;
-	//cout << "j: " << j << endl;
-	//BigInt k = j;
-	//cout << "k: " << k << endl;
-	//BigInt m = j + k;
-	//cout << "m: " << m << endl;
-
-	//BigInt a("123");
-	//BigInt b = a++;
-	//cout << "b: " << b << endl;
-	// ************** BigInt operator++(int) **************
-
-	//BigInt o = 1;
-	//o++;
-	//cout << "o: " << o << endl;
-	// ************** void operator++(int) **************
-
-	//BigInt p = 1;
-	//p += 10;
-	//cout << "p: " << p << endl;
-	// ************** BigInt operator += (int n) **************
-
-	//BigInt e = 1;
-	//e += p;
-	//cout << "e: " << e << endl;
-	// ************** BigInt operator += (BigInt& n) **************
-
-	//BigInt z = 10;
-	//cout << "Division: " << z.Division("7") << endl; // Error
-	//BigInt w = 8127;
-	//cout << "Division: " << w.Division("9") << endl; // 903
-	//BigInt q = "100000000000000000000000000000000000000000000000000000000000000000000000";
-	//cout << "Division: " << q.Division("2") << endl; // 50000000000000000000000000000000000000000000000000000000000000000000000
-	// ************** Division **************
-
-	//BigInt i = "1000000000000000000000000000000000000000000000000000000000000000";
-	//cout << "Multiplication: " << i.multiplication("2") << endl;
-	// ************** Multiplication **************
-
-	//BigInt i = 1999;
-	//i.AddNumbers("1");
-	// ************** Addition **************
-
-	//BigInt i = 1999;
-	//i.deleteNumbers("100");
-	//cout << "deleteNumbers: " << i.deleteNumbers("1") << endl;
-	// ************** Deletion **************
-//}
-
-
-
 string BigInt::fillZeros(string str, int n, bool flag) {
     // flag 0 to fill left, flag 1 to fill right.
     if (flag) {
