@@ -18,16 +18,8 @@
   - Default constructor (`BigInt()`)
 
   # How to use it:
-  If this is your files directory:
-  Main folder/
-  ├── BigInt Libray/
-  │ └── mathLongOperations.h
-  | └── mathLongOperations.cpp
-  └── Your Library/
-    └── main.cpp
-  
   - Build the library project, and link the library probably.
-  - Include this file in your main.cpp: #include "../mathLongOperations/mathLongOperations.h"
+  - Include this line in your main.cpp: #include "../mathLongOperations/mathLongOperations.h"
   - Example of how to use it:
   int main() {
 	cout << "addition: " <<  add("10000000000000000000000000000000000000000", "100") << endl;
