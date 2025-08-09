@@ -26,9 +26,9 @@
   ```cpp
   int main() {  
 	cout << "addition: " <<  add("10000000000000000000000000000000000000000", "100") << endl;  
-	cout << "delete: " << deleteNum("1000", "100") << endl;  
-	cout << "multiplication: " << multiplication("9", "100") << endl;  
-	cout << "division: " << division("1000", "100") << endl;  
+	cout << "delete: " << deleteNum("92500000000000000000000000000001884", "100") << endl;  
+	cout << "multiplication: " << multiplication("59848484849848915615618918618416898536881531831", "100") << endl;  
+	cout << "division: " << division("2313111311312312123121231231321121321351511513", "100") << endl;  
 	//************** Direct operations **************  
 
 
