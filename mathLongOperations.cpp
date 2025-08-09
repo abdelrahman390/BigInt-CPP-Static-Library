@@ -274,7 +274,7 @@ BigInt BigInt::operator+(BigInt& n)
 
 BigInt BigInt::operator-(BigInt& n)
 {
-    string result = deleteNumbers(n.internalNumber);
+string result = deleteNumbers(n.internalNumber);
     BigInt r;
     r.internalNumber = result;
     return r;
