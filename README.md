@@ -1,5 +1,5 @@
 ## BigInt C++ Static Library
-- is a C++ library to perform mathematical operations on integers of virtually unlimited size, overcoming the limitations of native C++ integer types
+- It is a C++ library to perform mathematical operations on integers of virtually unlimited size, overcoming the limitations of native C++ integer types
   
 ## Features
 
